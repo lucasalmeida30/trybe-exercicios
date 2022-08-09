@@ -1,4 +1,4 @@
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por [min] (linkedin.com/in/lucas-almeida-2119b621a) enquanto estudava na [Trybe](https://www.betrybe.com/)
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por [min] (https://www.linkedin.com/in/lucas-almeida-2119b621a/) enquanto estudava na [Trybe](https://www.betrybe.com/)
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa paga quando conseguir um bom trabalho."_
 
