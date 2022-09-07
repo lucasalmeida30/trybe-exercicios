@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // passo 1
+
+      let div = document.getElementById("div");
+      let body = document.getElementsByTagName("body")[0];
+      let title = document.createElement("h1");
+      title.innerText = "Exercício 5.2 - JavaScript DOM";
+      body.appendChild(title);
+      // passo 2
+
+      let main = document.createElement("main");
+      main.className = "mainContent";
+      body.appendChild(main);
+      console.log(main);
+
+      // passo 3
+
+      let section = document.createElement("section");
+      section.className = "centerContent";
+      main.appendChild(section);
+
+      // passo 4
+
+      let paragrafo = document.createElement("p");
+      paragrafo.innerText = " Hoje tem projeto! uhuuul ";
+      section.appendChild(paragrafo);
+
+      // passo 5
+
+      let sectionTwo = document.createElement("section");
+      sectionTwo.className = "leftContent";
+      main.appendChild(sectionTwo);
+
+      // passo 6
+
+      let sectionThrre = document.createElement("section");
+      sectionThrre.className = "rigthContent";
+      main.appendChild(sectionThrre);
+
+      // passo 7
+
+      let image = document.createElement("img");
+      image.src = "https://picsum.photos/200";
+      image.className = "smallImage";
+      sectionTwo.appendChild(image);
+
+      // passo 8
+
+      let lista = document.createElement('ul');
+      sectionThrre.appendChild(lista)
+
+     for(let index = 1; index < 11; index +=1){
+      let linhas = document.createElement('li')
+      linhas.innerText = index
+      lista.appendChild(linhas);
+     }
+
+     // passo 9 
+
+     for(let index = 1; index < 4; index+=1){
+      let subTitle = document.createElement('h3');
+      main.appendChild(subTitle);
+      subTitle.className = "description"
+     }
+
+     // passo 10
+
+     title.className = 'title'
+
+     // passo 11
+        main.removeChild(sectionTwo);
+        console.log(main)
+
+    // passo 12 
+
+    let corFundo = section.parentNode;
+    corFundo.style.brackgroundColor = 'red'
+
+     
+    </script>
+  </body>
+</html>
