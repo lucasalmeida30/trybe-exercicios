@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(227, 219, 255);
+}
+
+.container{
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-right: 10px;
+}
+
+header {
+    border: 1px solid rgb(148, 148, 255);
+    width: 88%;
+    margin: 40px auto;
+    background-color: #adb3bd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form {
+    border: 1px solid rgb(148, 148, 251);
+    width: 80%;
+    margin: 40px auto;
+    background-color: #adb3bd;
+    border-radius: 5px;
+    padding: 10px;
+}
