@@ -1,0 +1,35 @@
+div:hover {
+  border: 1px solid black;
+  transition: 3ms;
+}
+div:nth-child(5n) {
+  background-color: blueviolet;
+  height: 80px;
+}
+
+div:nth-child(6n) {
+  background-color: darkblue;
+}
+
+div:nth-child(7n) {
+    background-color: rgb(166, 245, 238);
+}
+
+div:nth-child(4n) {
+    background-color: cornflowerblue;
+}
+
+div:nth-child(-n+3) {
+    background-color: rgb(0, 186, 155);
+}
+
+h3:first-child{
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div:nth-child(2n+1) {
+  font-style: italic;
+}

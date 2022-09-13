@@ -1,0 +1,28 @@
+h1 , p {
+    text-align: center;
+    
+}
+ol{
+    list-style: none;
+}
+
+ol > li:hover{
+    background-color: blueviolet;
+    transition: 1s;
+
+}
+
+ol:active{
+  font-family: monospace;
+  transition: 3s;
+}
+
+ul{
+    list-style: none;
+}
+
+ul > li:hover {
+     background-color: crimson;
+     color: white;
+     transition: 1s;
+}
