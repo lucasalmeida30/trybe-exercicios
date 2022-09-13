@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(52, 52, 52);
+    color: azure;
+}
+
+header {
+    background-color: rgba(246, 243, 241, 0.838);
+    text-align: center;
+    display: inline-block;
+    margin-left: 300px;
+    padding: 5px;
+    color: rgb(44, 72, 73);
+    border-radius: 5px;
+}
+
+nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 19px;
+}
+
+
+.menu a{
+   text-decoration: none;
+   color: beige;
+   font-size: 20px;
+   background-color: rgb(52, 86, 87);
+   padding: 10px;
+}
+
+
+
+#conteudo-lateral {
+    background-color: rgb(93, 93, 93);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left:73%;
+    margin-top: -95%;
+    padding: 8px;
+    height: 50vh;
+    position: absolute;
+    border-radius: 10px 0px 10px 0px;
+    
+    
+}
+
+ a {
+    color: white;
+}
+
+
+article {
+    display: inline-block;
+    width: 70%;
+}
+
+table, td, th, caption {
+    border: solid 1px black;
+}
+
+table{
+ width: 30%;
+ color: black;
+ background-color: lightgray;
+}
+
+caption {
+    background-color: lightgray;
+}
+
+img{
+    width: 300px;
+}
+
+footer {
+    background-color: rgb(90, 90, 90);
+    padding: 3px;
+    text-align: center;
+    font-size: 17px;
+}
