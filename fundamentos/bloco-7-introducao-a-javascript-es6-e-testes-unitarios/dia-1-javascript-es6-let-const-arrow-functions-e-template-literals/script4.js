@@ -5,10 +5,10 @@ const ContarPalavra = (frase) => {
   for(const key of palavras){
      if(key.length > maxLength){
         maxLength = key.length;
-        result = key
+        result = key;
      }
   }
-  return result
+  return result;
 }
 
-console.log(ContarPalavra('Antônio foi ao banheiro e não sabemos o que aconteceu'))
+console.log(ContarPalavra('Antônio foi ao banheiro e não sabemos o que aconteceu'));
