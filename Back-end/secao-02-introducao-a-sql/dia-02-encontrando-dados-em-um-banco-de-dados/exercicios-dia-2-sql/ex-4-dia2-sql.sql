@@ -1,0 +1,1 @@
+SELECT 10 + 7 * 4 AS Resultado

@@ -1,0 +1,1 @@
+SELECT '10 + 15' as soma , 10 + 15 AS Resultado

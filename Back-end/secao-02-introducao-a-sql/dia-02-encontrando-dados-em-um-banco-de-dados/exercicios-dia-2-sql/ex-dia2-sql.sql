@@ -1,0 +1,1 @@
+SELECT CONCAT('Existem ', COUNT(Name), ' cientistas na tabela Scientists') as Cientistas FROM Scientists;

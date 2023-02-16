@@ -1,0 +1,1 @@
+SELECT Name, Hours FROM Projects ORDER BY Hours LIMIT 1 OFFSET 1;
