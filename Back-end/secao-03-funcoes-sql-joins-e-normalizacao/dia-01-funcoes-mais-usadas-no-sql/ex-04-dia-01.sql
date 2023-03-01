@@ -1,0 +1,1 @@
+SELECT SUM(salary) as total FROM hr.employees;

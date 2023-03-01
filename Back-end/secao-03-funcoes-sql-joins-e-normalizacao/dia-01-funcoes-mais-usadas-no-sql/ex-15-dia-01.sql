@@ -1,0 +1,1 @@
+SELECT employee_id, first_name, SUBSTRING(hire_date, 6, 2) FROM hr.employees;
